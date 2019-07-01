@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="simplestartframework-example-1.0">
+                
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="simplestartframework-web-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/simplestartframework-web/simplestartframework-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="simplestartframework-context-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/simplestartframework-context/simplestartframework-context">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="simplestartframework-core-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/simplestartframework-core/simplestartframework-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="simplestartframework-data-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/simplestartframework-data/simplestartframework-data">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="java-output-path" value="/simplestartframework-example/target/classes"/>
+                
+        <property name="context-root" value="simplestartframework-example"/>
+            
+    </wb-module>
+    
+</project-modules>
